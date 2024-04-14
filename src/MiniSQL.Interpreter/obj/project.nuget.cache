@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "Ku/DvDeR2k8wPdDs60WaYjt16wuSnbUdY+l6U5j6X0TW9izJ3IBzEoXhzBsEdvzhu49p8jRH0HoMTYO5iaHH7w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.Interpreter\\MiniSQL.Interpreter.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\HP\\.nuget\\packages\\antlr4.runtime.standard\\4.9.2\\antlr4.runtime.standard.4.9.2.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

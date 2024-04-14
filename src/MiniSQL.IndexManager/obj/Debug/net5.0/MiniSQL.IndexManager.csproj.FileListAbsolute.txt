@@ -1,0 +1,38 @@
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\MiniSQL-master\src\MiniSQL.IndexManager\bin\Debug\net5.0\MiniSQL.IndexManager.deps.json
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\MiniSQL-master\src\MiniSQL.IndexManager\bin\Debug\net5.0\MiniSQL.IndexManager.dll
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\MiniSQL-master\src\MiniSQL.IndexManager\bin\Debug\net5.0\MiniSQL.IndexManager.pdb
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\MiniSQL-master\src\MiniSQL.IndexManager\bin\Debug\net5.0\MiniSQL.IndexManager.xml
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\MiniSQL-master\src\MiniSQL.IndexManager\bin\Debug\net5.0\MiniSQL.BufferManager.dll
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\MiniSQL-master\src\MiniSQL.IndexManager\bin\Debug\net5.0\MiniSQL.Library.dll
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\MiniSQL-master\src\MiniSQL.IndexManager\bin\Debug\net5.0\MiniSQL.Library.pdb
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\MiniSQL-master\src\MiniSQL.IndexManager\bin\Debug\net5.0\MiniSQL.BufferManager.pdb
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\MiniSQL-master\src\MiniSQL.IndexManager\obj\Debug\net5.0\MiniSQL.IndexManager.csproj.AssemblyReference.cache
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\MiniSQL-master\src\MiniSQL.IndexManager\obj\Debug\net5.0\MiniSQL.IndexManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\MiniSQL-master\src\MiniSQL.IndexManager\obj\Debug\net5.0\MiniSQL.IndexManager.AssemblyInfoInputs.cache
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\MiniSQL-master\src\MiniSQL.IndexManager\obj\Debug\net5.0\MiniSQL.IndexManager.AssemblyInfo.cs
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\MiniSQL-master\src\MiniSQL.IndexManager\obj\Debug\net5.0\MiniSQL.IndexManager.csproj.CoreCompileInputs.cache
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\MiniSQL-master\src\MiniSQL.IndexManager\obj\Debug\net5.0\MiniSQL..1AEE7F36.Up2Date
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\MiniSQL-master\src\MiniSQL.IndexManager\obj\Debug\net5.0\MiniSQL.IndexManager.dll
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\MiniSQL-master\src\MiniSQL.IndexManager\obj\Debug\net5.0\refint\MiniSQL.IndexManager.dll
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\MiniSQL-master\src\MiniSQL.IndexManager\obj\Debug\net5.0\MiniSQL.IndexManager.xml
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\MiniSQL-master\src\MiniSQL.IndexManager\obj\Debug\net5.0\MiniSQL.IndexManager.pdb
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\MiniSQL-master\src\MiniSQL.IndexManager\obj\Debug\net5.0\ref\MiniSQL.IndexManager.dll
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\NITW SQL LILLYPUT\src\MiniSQL.IndexManager\bin\Debug\net5.0\MiniSQL.IndexManager.deps.json
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\NITW SQL LILLYPUT\src\MiniSQL.IndexManager\bin\Debug\net5.0\MiniSQL.IndexManager.dll
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\NITW SQL LILLYPUT\src\MiniSQL.IndexManager\bin\Debug\net5.0\MiniSQL.IndexManager.pdb
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\NITW SQL LILLYPUT\src\MiniSQL.IndexManager\bin\Debug\net5.0\MiniSQL.IndexManager.xml
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\NITW SQL LILLYPUT\src\MiniSQL.IndexManager\bin\Debug\net5.0\MiniSQL.BufferManager.dll
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\NITW SQL LILLYPUT\src\MiniSQL.IndexManager\bin\Debug\net5.0\MiniSQL.Library.dll
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\NITW SQL LILLYPUT\src\MiniSQL.IndexManager\bin\Debug\net5.0\MiniSQL.Library.pdb
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\NITW SQL LILLYPUT\src\MiniSQL.IndexManager\bin\Debug\net5.0\MiniSQL.BufferManager.pdb
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\NITW SQL LILLYPUT\src\MiniSQL.IndexManager\obj\Debug\net5.0\MiniSQL.IndexManager.csproj.AssemblyReference.cache
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\NITW SQL LILLYPUT\src\MiniSQL.IndexManager\obj\Debug\net5.0\MiniSQL.IndexManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\NITW SQL LILLYPUT\src\MiniSQL.IndexManager\obj\Debug\net5.0\MiniSQL.IndexManager.AssemblyInfoInputs.cache
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\NITW SQL LILLYPUT\src\MiniSQL.IndexManager\obj\Debug\net5.0\MiniSQL.IndexManager.AssemblyInfo.cs
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\NITW SQL LILLYPUT\src\MiniSQL.IndexManager\obj\Debug\net5.0\MiniSQL.IndexManager.csproj.CoreCompileInputs.cache
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\NITW SQL LILLYPUT\src\MiniSQL.IndexManager\obj\Debug\net5.0\MiniSQL..1AEE7F36.Up2Date
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\NITW SQL LILLYPUT\src\MiniSQL.IndexManager\obj\Debug\net5.0\MiniSQL.IndexManager.dll
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\NITW SQL LILLYPUT\src\MiniSQL.IndexManager\obj\Debug\net5.0\refint\MiniSQL.IndexManager.dll
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\NITW SQL LILLYPUT\src\MiniSQL.IndexManager\obj\Debug\net5.0\MiniSQL.IndexManager.xml
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\NITW SQL LILLYPUT\src\MiniSQL.IndexManager\obj\Debug\net5.0\MiniSQL.IndexManager.pdb
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\NITW SQL LILLYPUT\src\MiniSQL.IndexManager\obj\Debug\net5.0\ref\MiniSQL.IndexManager.dll

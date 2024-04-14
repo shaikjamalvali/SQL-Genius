@@ -1,0 +1,245 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "Antlr4.Runtime.Standard/4.9.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Antlr4.Runtime.Standard.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Antlr4.Runtime.Standard.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MiniSQL.BufferManager/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "MiniSQL.Library": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MiniSQL.BufferManager.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MiniSQL.BufferManager.dll": {}
+        }
+      },
+      "MiniSQL.CatalogManager/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "MiniSQL.BufferManager": "1.0.0",
+          "MiniSQL.Library": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MiniSQL.CatalogManager.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MiniSQL.CatalogManager.dll": {}
+        }
+      },
+      "MiniSQL.IndexManager/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "MiniSQL.BufferManager": "1.0.0",
+          "MiniSQL.Library": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MiniSQL.IndexManager.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MiniSQL.IndexManager.dll": {}
+        }
+      },
+      "MiniSQL.Interpreter/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Antlr4.Runtime.Standard": "4.9.2",
+          "MiniSQL.Library": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MiniSQL.Interpreter.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MiniSQL.Interpreter.dll": {}
+        }
+      },
+      "MiniSQL.Library/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/MiniSQL.Library.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MiniSQL.Library.dll": {}
+        }
+      },
+      "MiniSQL.RecordManager/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "MiniSQL.BufferManager": "1.0.0",
+          "MiniSQL.IndexManager": "1.0.0",
+          "MiniSQL.Library": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MiniSQL.RecordManager.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MiniSQL.RecordManager.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Antlr4.Runtime.Standard/4.9.2": {
+      "sha512": "NH/CZeP56ERa+1w7HqlQKXMVBlkNHOWrjF3holW5XgUdyDP36Mw0SynoNj6jD7UNqhxc+4YYfOWXajO3U1Q2dw==",
+      "type": "package",
+      "path": "antlr4.runtime.standard/4.9.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "antlr4.runtime.standard.4.9.2.nupkg.sha512",
+        "antlr4.runtime.standard.nuspec",
+        "lib/netstandard2.0/Antlr4.Runtime.Standard.dll",
+        "lib/netstandard2.0/Antlr4.Runtime.Standard.xml"
+      ]
+    },
+    "MiniSQL.BufferManager/1.0.0": {
+      "type": "project",
+      "path": "../MiniSQL.BufferManager/MiniSQL.BufferManager.csproj",
+      "msbuildProject": "../MiniSQL.BufferManager/MiniSQL.BufferManager.csproj"
+    },
+    "MiniSQL.CatalogManager/1.0.0": {
+      "type": "project",
+      "path": "../MiniSQL.CatalogManager/MiniSQL.CatalogManager.csproj",
+      "msbuildProject": "../MiniSQL.CatalogManager/MiniSQL.CatalogManager.csproj"
+    },
+    "MiniSQL.IndexManager/1.0.0": {
+      "type": "project",
+      "path": "../MiniSQL.IndexManager/MiniSQL.IndexManager.csproj",
+      "msbuildProject": "../MiniSQL.IndexManager/MiniSQL.IndexManager.csproj"
+    },
+    "MiniSQL.Interpreter/1.0.0": {
+      "type": "project",
+      "path": "../MiniSQL.Interpreter/MiniSQL.Interpreter.csproj",
+      "msbuildProject": "../MiniSQL.Interpreter/MiniSQL.Interpreter.csproj"
+    },
+    "MiniSQL.Library/1.0.0": {
+      "type": "project",
+      "path": "../MiniSQL.Library/MiniSQL.Library.csproj",
+      "msbuildProject": "../MiniSQL.Library/MiniSQL.Library.csproj"
+    },
+    "MiniSQL.RecordManager/1.0.0": {
+      "type": "project",
+      "path": "../MiniSQL.RecordManager/MiniSQL.RecordManager.csproj",
+      "msbuildProject": "../MiniSQL.RecordManager/MiniSQL.RecordManager.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "MiniSQL.CatalogManager >= 1.0.0",
+      "MiniSQL.IndexManager >= 1.0.0",
+      "MiniSQL.Interpreter >= 1.0.0",
+      "MiniSQL.Library >= 1.0.0",
+      "MiniSQL.RecordManager >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\HP\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.Api\\MiniSQL.Api.csproj",
+      "projectName": "MiniSQL.Api",
+      "projectPath": "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.Api\\MiniSQL.Api.csproj",
+      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.Api\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.CatalogManager\\MiniSQL.CatalogManager.csproj": {
+              "projectPath": "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.CatalogManager\\MiniSQL.CatalogManager.csproj"
+            },
+            "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.IndexManager\\MiniSQL.IndexManager.csproj": {
+              "projectPath": "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.IndexManager\\MiniSQL.IndexManager.csproj"
+            },
+            "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.Interpreter\\MiniSQL.Interpreter.csproj": {
+              "projectPath": "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.Interpreter\\MiniSQL.Interpreter.csproj"
+            },
+            "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.Library\\MiniSQL.Library.csproj": {
+              "projectPath": "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.Library\\MiniSQL.Library.csproj"
+            },
+            "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.RecordManager\\MiniSQL.RecordManager.csproj": {
+              "projectPath": "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.RecordManager\\MiniSQL.RecordManager.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

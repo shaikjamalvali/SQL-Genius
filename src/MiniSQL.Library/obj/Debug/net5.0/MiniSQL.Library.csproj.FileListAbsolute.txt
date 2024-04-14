@@ -1,0 +1,22 @@
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\MiniSQL-master\src\MiniSQL.Library\bin\Debug\net5.0\MiniSQL.Library.deps.json
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\MiniSQL-master\src\MiniSQL.Library\bin\Debug\net5.0\MiniSQL.Library.dll
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\MiniSQL-master\src\MiniSQL.Library\bin\Debug\net5.0\MiniSQL.Library.pdb
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\MiniSQL-master\src\MiniSQL.Library\obj\Debug\net5.0\MiniSQL.Library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\MiniSQL-master\src\MiniSQL.Library\obj\Debug\net5.0\MiniSQL.Library.AssemblyInfoInputs.cache
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\MiniSQL-master\src\MiniSQL.Library\obj\Debug\net5.0\MiniSQL.Library.AssemblyInfo.cs
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\MiniSQL-master\src\MiniSQL.Library\obj\Debug\net5.0\MiniSQL.Library.csproj.CoreCompileInputs.cache
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\MiniSQL-master\src\MiniSQL.Library\obj\Debug\net5.0\MiniSQL.Library.dll
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\MiniSQL-master\src\MiniSQL.Library\obj\Debug\net5.0\refint\MiniSQL.Library.dll
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\MiniSQL-master\src\MiniSQL.Library\obj\Debug\net5.0\MiniSQL.Library.pdb
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\MiniSQL-master\src\MiniSQL.Library\obj\Debug\net5.0\ref\MiniSQL.Library.dll
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\NITW SQL LILLYPUT\src\MiniSQL.Library\bin\Debug\net5.0\MiniSQL.Library.deps.json
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\NITW SQL LILLYPUT\src\MiniSQL.Library\bin\Debug\net5.0\MiniSQL.Library.dll
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\NITW SQL LILLYPUT\src\MiniSQL.Library\bin\Debug\net5.0\MiniSQL.Library.pdb
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\NITW SQL LILLYPUT\src\MiniSQL.Library\obj\Debug\net5.0\MiniSQL.Library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\NITW SQL LILLYPUT\src\MiniSQL.Library\obj\Debug\net5.0\MiniSQL.Library.AssemblyInfoInputs.cache
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\NITW SQL LILLYPUT\src\MiniSQL.Library\obj\Debug\net5.0\MiniSQL.Library.AssemblyInfo.cs
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\NITW SQL LILLYPUT\src\MiniSQL.Library\obj\Debug\net5.0\MiniSQL.Library.csproj.CoreCompileInputs.cache
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\NITW SQL LILLYPUT\src\MiniSQL.Library\obj\Debug\net5.0\MiniSQL.Library.dll
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\NITW SQL LILLYPUT\src\MiniSQL.Library\obj\Debug\net5.0\refint\MiniSQL.Library.dll
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\NITW SQL LILLYPUT\src\MiniSQL.Library\obj\Debug\net5.0\MiniSQL.Library.pdb
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\NITW SQL LILLYPUT\src\MiniSQL.Library\obj\Debug\net5.0\ref\MiniSQL.Library.dll

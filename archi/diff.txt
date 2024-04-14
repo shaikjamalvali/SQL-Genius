@@ -1,0 +1,12 @@
+Differences:
+ index tree is also implemented with B+ tree, not B tree.
+   index tree utilizes InternalTableCell and LeafTableCell rather than InternalIndexCell and LeafIndexCell.
+INDEX TREE == TABLE TREE 
+    
+       Index tree could only support dropping and inserting along with the table tree but not deleting due to complicity (implemented in DatabaseController).
+
+    The key field of the table cells is implemented with type DBRecord, not int.
+
+
+    The nodes of B+ Tree each has a pointer ParentPage pointing to its parent.
+    leaf nodes of B+ Tree each has a pointer RightPage pointing to next leaf node on the right.

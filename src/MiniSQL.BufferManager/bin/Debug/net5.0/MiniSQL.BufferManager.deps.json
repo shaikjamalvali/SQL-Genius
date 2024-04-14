@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "MiniSQL.BufferManager/1.0.0": {
+        "dependencies": {
+          "MiniSQL.Library": "1.0.0"
+        },
+        "runtime": {
+          "MiniSQL.BufferManager.dll": {}
+        }
+      },
+      "MiniSQL.Library/1.0.0": {
+        "runtime": {
+          "MiniSQL.Library.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MiniSQL.BufferManager/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MiniSQL.Library/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

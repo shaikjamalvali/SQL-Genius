@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "MiniSQL.IndexManager/1.0.0": {
+        "dependencies": {
+          "MiniSQL.BufferManager": "1.0.0",
+          "MiniSQL.Library": "1.0.0"
+        },
+        "runtime": {
+          "MiniSQL.IndexManager.dll": {}
+        }
+      },
+      "MiniSQL.BufferManager/1.0.0": {
+        "dependencies": {
+          "MiniSQL.Library": "1.0.0"
+        },
+        "runtime": {
+          "MiniSQL.BufferManager.dll": {}
+        }
+      },
+      "MiniSQL.Library/1.0.0": {
+        "runtime": {
+          "MiniSQL.Library.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MiniSQL.IndexManager/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MiniSQL.BufferManager/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MiniSQL.Library/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

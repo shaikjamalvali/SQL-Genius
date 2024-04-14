@@ -1,0 +1,34 @@
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\MiniSQL-master\src\MiniSQL.CatalogManager\bin\Debug\net5.0\MiniSQL.CatalogManager.deps.json
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\MiniSQL-master\src\MiniSQL.CatalogManager\bin\Debug\net5.0\MiniSQL.CatalogManager.dll
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\MiniSQL-master\src\MiniSQL.CatalogManager\bin\Debug\net5.0\MiniSQL.CatalogManager.pdb
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\MiniSQL-master\src\MiniSQL.CatalogManager\bin\Debug\net5.0\MiniSQL.BufferManager.dll
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\MiniSQL-master\src\MiniSQL.CatalogManager\bin\Debug\net5.0\MiniSQL.Library.dll
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\MiniSQL-master\src\MiniSQL.CatalogManager\bin\Debug\net5.0\MiniSQL.Library.pdb
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\MiniSQL-master\src\MiniSQL.CatalogManager\bin\Debug\net5.0\MiniSQL.BufferManager.pdb
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\MiniSQL-master\src\MiniSQL.CatalogManager\obj\Debug\net5.0\MiniSQL.CatalogManager.csproj.AssemblyReference.cache
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\MiniSQL-master\src\MiniSQL.CatalogManager\obj\Debug\net5.0\MiniSQL.CatalogManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\MiniSQL-master\src\MiniSQL.CatalogManager\obj\Debug\net5.0\MiniSQL.CatalogManager.AssemblyInfoInputs.cache
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\MiniSQL-master\src\MiniSQL.CatalogManager\obj\Debug\net5.0\MiniSQL.CatalogManager.AssemblyInfo.cs
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\MiniSQL-master\src\MiniSQL.CatalogManager\obj\Debug\net5.0\MiniSQL.CatalogManager.csproj.CoreCompileInputs.cache
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\MiniSQL-master\src\MiniSQL.CatalogManager\obj\Debug\net5.0\MiniSQL..C46673D8.Up2Date
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\MiniSQL-master\src\MiniSQL.CatalogManager\obj\Debug\net5.0\MiniSQL.CatalogManager.dll
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\MiniSQL-master\src\MiniSQL.CatalogManager\obj\Debug\net5.0\refint\MiniSQL.CatalogManager.dll
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\MiniSQL-master\src\MiniSQL.CatalogManager\obj\Debug\net5.0\MiniSQL.CatalogManager.pdb
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\MiniSQL-master\src\MiniSQL.CatalogManager\obj\Debug\net5.0\ref\MiniSQL.CatalogManager.dll
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\NITW SQL LILLYPUT\src\MiniSQL.CatalogManager\bin\Debug\net5.0\MiniSQL.CatalogManager.deps.json
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\NITW SQL LILLYPUT\src\MiniSQL.CatalogManager\bin\Debug\net5.0\MiniSQL.CatalogManager.dll
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\NITW SQL LILLYPUT\src\MiniSQL.CatalogManager\bin\Debug\net5.0\MiniSQL.CatalogManager.pdb
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\NITW SQL LILLYPUT\src\MiniSQL.CatalogManager\bin\Debug\net5.0\MiniSQL.BufferManager.dll
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\NITW SQL LILLYPUT\src\MiniSQL.CatalogManager\bin\Debug\net5.0\MiniSQL.Library.dll
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\NITW SQL LILLYPUT\src\MiniSQL.CatalogManager\bin\Debug\net5.0\MiniSQL.Library.pdb
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\NITW SQL LILLYPUT\src\MiniSQL.CatalogManager\bin\Debug\net5.0\MiniSQL.BufferManager.pdb
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\NITW SQL LILLYPUT\src\MiniSQL.CatalogManager\obj\Debug\net5.0\MiniSQL.CatalogManager.csproj.AssemblyReference.cache
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\NITW SQL LILLYPUT\src\MiniSQL.CatalogManager\obj\Debug\net5.0\MiniSQL.CatalogManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\NITW SQL LILLYPUT\src\MiniSQL.CatalogManager\obj\Debug\net5.0\MiniSQL.CatalogManager.AssemblyInfoInputs.cache
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\NITW SQL LILLYPUT\src\MiniSQL.CatalogManager\obj\Debug\net5.0\MiniSQL.CatalogManager.AssemblyInfo.cs
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\NITW SQL LILLYPUT\src\MiniSQL.CatalogManager\obj\Debug\net5.0\MiniSQL.CatalogManager.csproj.CoreCompileInputs.cache
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\NITW SQL LILLYPUT\src\MiniSQL.CatalogManager\obj\Debug\net5.0\MiniSQL..C46673D8.Up2Date
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\NITW SQL LILLYPUT\src\MiniSQL.CatalogManager\obj\Debug\net5.0\MiniSQL.CatalogManager.dll
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\NITW SQL LILLYPUT\src\MiniSQL.CatalogManager\obj\Debug\net5.0\refint\MiniSQL.CatalogManager.dll
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\NITW SQL LILLYPUT\src\MiniSQL.CatalogManager\obj\Debug\net5.0\MiniSQL.CatalogManager.pdb
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\NITW SQL LILLYPUT\src\MiniSQL.CatalogManager\obj\Debug\net5.0\ref\MiniSQL.CatalogManager.dll

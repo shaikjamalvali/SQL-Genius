@@ -1,0 +1,661 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.Client\\MiniSQL.Client.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.Api\\MiniSQL.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.Api\\MiniSQL.Api.csproj",
+        "projectName": "MiniSQL.Api",
+        "projectPath": "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.Api\\MiniSQL.Api.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.CatalogManager\\MiniSQL.CatalogManager.csproj": {
+                "projectPath": "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.CatalogManager\\MiniSQL.CatalogManager.csproj"
+              },
+              "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.IndexManager\\MiniSQL.IndexManager.csproj": {
+                "projectPath": "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.IndexManager\\MiniSQL.IndexManager.csproj"
+              },
+              "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.Interpreter\\MiniSQL.Interpreter.csproj": {
+                "projectPath": "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.Interpreter\\MiniSQL.Interpreter.csproj"
+              },
+              "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.Library\\MiniSQL.Library.csproj": {
+                "projectPath": "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.Library\\MiniSQL.Library.csproj"
+              },
+              "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.RecordManager\\MiniSQL.RecordManager.csproj": {
+                "projectPath": "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.RecordManager\\MiniSQL.RecordManager.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.BufferManager\\MiniSQL.BufferManager.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.BufferManager\\MiniSQL.BufferManager.csproj",
+        "projectName": "MiniSQL.BufferManager",
+        "projectPath": "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.BufferManager\\MiniSQL.BufferManager.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.BufferManager\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.Library\\MiniSQL.Library.csproj": {
+                "projectPath": "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.Library\\MiniSQL.Library.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.CatalogManager\\MiniSQL.CatalogManager.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.CatalogManager\\MiniSQL.CatalogManager.csproj",
+        "projectName": "MiniSQL.CatalogManager",
+        "projectPath": "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.CatalogManager\\MiniSQL.CatalogManager.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.CatalogManager\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.BufferManager\\MiniSQL.BufferManager.csproj": {
+                "projectPath": "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.BufferManager\\MiniSQL.BufferManager.csproj"
+              },
+              "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.Library\\MiniSQL.Library.csproj": {
+                "projectPath": "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.Library\\MiniSQL.Library.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.Client\\MiniSQL.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.Client\\MiniSQL.Client.csproj",
+        "projectName": "MiniSQL.Client",
+        "projectPath": "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.Client\\MiniSQL.Client.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.Api\\MiniSQL.Api.csproj": {
+                "projectPath": "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.Api\\MiniSQL.Api.csproj"
+              },
+              "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.CatalogManager\\MiniSQL.CatalogManager.csproj": {
+                "projectPath": "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.CatalogManager\\MiniSQL.CatalogManager.csproj"
+              },
+              "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.IndexManager\\MiniSQL.IndexManager.csproj": {
+                "projectPath": "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.IndexManager\\MiniSQL.IndexManager.csproj"
+              },
+              "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.Interpreter\\MiniSQL.Interpreter.csproj": {
+                "projectPath": "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.Interpreter\\MiniSQL.Interpreter.csproj"
+              },
+              "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.Library\\MiniSQL.Library.csproj": {
+                "projectPath": "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.Library\\MiniSQL.Library.csproj"
+              },
+              "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.RecordManager\\MiniSQL.RecordManager.csproj": {
+                "projectPath": "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.RecordManager\\MiniSQL.RecordManager.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.17, 5.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.IndexManager\\MiniSQL.IndexManager.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.IndexManager\\MiniSQL.IndexManager.csproj",
+        "projectName": "MiniSQL.IndexManager",
+        "projectPath": "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.IndexManager\\MiniSQL.IndexManager.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.IndexManager\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.BufferManager\\MiniSQL.BufferManager.csproj": {
+                "projectPath": "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.BufferManager\\MiniSQL.BufferManager.csproj"
+              },
+              "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.Library\\MiniSQL.Library.csproj": {
+                "projectPath": "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.Library\\MiniSQL.Library.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.Interpreter\\MiniSQL.Interpreter.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.Interpreter\\MiniSQL.Interpreter.csproj",
+        "projectName": "MiniSQL.Interpreter",
+        "projectPath": "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.Interpreter\\MiniSQL.Interpreter.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.Interpreter\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.Library\\MiniSQL.Library.csproj": {
+                "projectPath": "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.Library\\MiniSQL.Library.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Antlr4.Runtime.Standard": {
+              "target": "Package",
+              "version": "[4.9.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.Library\\MiniSQL.Library.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.Library\\MiniSQL.Library.csproj",
+        "projectName": "MiniSQL.Library",
+        "projectPath": "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.Library\\MiniSQL.Library.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.Library\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.RecordManager\\MiniSQL.RecordManager.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.RecordManager\\MiniSQL.RecordManager.csproj",
+        "projectName": "MiniSQL.RecordManager",
+        "projectPath": "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.RecordManager\\MiniSQL.RecordManager.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.RecordManager\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.BufferManager\\MiniSQL.BufferManager.csproj": {
+                "projectPath": "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.BufferManager\\MiniSQL.BufferManager.csproj"
+              },
+              "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.IndexManager\\MiniSQL.IndexManager.csproj": {
+                "projectPath": "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.IndexManager\\MiniSQL.IndexManager.csproj"
+              },
+              "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.Library\\MiniSQL.Library.csproj": {
+                "projectPath": "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.Library\\MiniSQL.Library.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

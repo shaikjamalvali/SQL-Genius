@@ -1,0 +1,130 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "MiniSQL.BufferManager/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "MiniSQL.Library": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MiniSQL.BufferManager.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MiniSQL.BufferManager.dll": {}
+        }
+      },
+      "MiniSQL.Library/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/MiniSQL.Library.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MiniSQL.Library.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MiniSQL.BufferManager/1.0.0": {
+      "type": "project",
+      "path": "../MiniSQL.BufferManager/MiniSQL.BufferManager.csproj",
+      "msbuildProject": "../MiniSQL.BufferManager/MiniSQL.BufferManager.csproj"
+    },
+    "MiniSQL.Library/1.0.0": {
+      "type": "project",
+      "path": "../MiniSQL.Library/MiniSQL.Library.csproj",
+      "msbuildProject": "../MiniSQL.Library/MiniSQL.Library.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "MiniSQL.BufferManager >= 1.0.0",
+      "MiniSQL.Library >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\HP\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.IndexManager\\MiniSQL.IndexManager.csproj",
+      "projectName": "MiniSQL.IndexManager",
+      "projectPath": "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.IndexManager\\MiniSQL.IndexManager.csproj",
+      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.IndexManager\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.BufferManager\\MiniSQL.BufferManager.csproj": {
+              "projectPath": "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.BufferManager\\MiniSQL.BufferManager.csproj"
+            },
+            "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.Library\\MiniSQL.Library.csproj": {
+              "projectPath": "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.Library\\MiniSQL.Library.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\MiniSQL-master\src\MiniSQL.BufferManager\bin\Debug\net5.0\MiniSQL.BufferManager.deps.json
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\MiniSQL-master\src\MiniSQL.BufferManager\bin\Debug\net5.0\MiniSQL.BufferManager.dll
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\MiniSQL-master\src\MiniSQL.BufferManager\bin\Debug\net5.0\MiniSQL.BufferManager.pdb
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\MiniSQL-master\src\MiniSQL.BufferManager\bin\Debug\net5.0\MiniSQL.Library.dll
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\MiniSQL-master\src\MiniSQL.BufferManager\bin\Debug\net5.0\MiniSQL.Library.pdb
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\MiniSQL-master\src\MiniSQL.BufferManager\obj\Debug\net5.0\MiniSQL.BufferManager.csproj.AssemblyReference.cache
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\MiniSQL-master\src\MiniSQL.BufferManager\obj\Debug\net5.0\MiniSQL.BufferManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\MiniSQL-master\src\MiniSQL.BufferManager\obj\Debug\net5.0\MiniSQL.BufferManager.AssemblyInfoInputs.cache
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\MiniSQL-master\src\MiniSQL.BufferManager\obj\Debug\net5.0\MiniSQL.BufferManager.AssemblyInfo.cs
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\MiniSQL-master\src\MiniSQL.BufferManager\obj\Debug\net5.0\MiniSQL.BufferManager.csproj.CoreCompileInputs.cache
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\MiniSQL-master\src\MiniSQL.BufferManager\obj\Debug\net5.0\MiniSQL..27B18889.Up2Date
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\MiniSQL-master\src\MiniSQL.BufferManager\obj\Debug\net5.0\MiniSQL.BufferManager.dll
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\MiniSQL-master\src\MiniSQL.BufferManager\obj\Debug\net5.0\refint\MiniSQL.BufferManager.dll
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\MiniSQL-master\src\MiniSQL.BufferManager\obj\Debug\net5.0\MiniSQL.BufferManager.pdb
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\MiniSQL-master\src\MiniSQL.BufferManager\obj\Debug\net5.0\ref\MiniSQL.BufferManager.dll
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\NITW SQL LILLYPUT\src\MiniSQL.BufferManager\bin\Debug\net5.0\MiniSQL.BufferManager.deps.json
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\NITW SQL LILLYPUT\src\MiniSQL.BufferManager\bin\Debug\net5.0\MiniSQL.BufferManager.dll
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\NITW SQL LILLYPUT\src\MiniSQL.BufferManager\bin\Debug\net5.0\MiniSQL.BufferManager.pdb
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\NITW SQL LILLYPUT\src\MiniSQL.BufferManager\bin\Debug\net5.0\MiniSQL.Library.dll
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\NITW SQL LILLYPUT\src\MiniSQL.BufferManager\bin\Debug\net5.0\MiniSQL.Library.pdb
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\NITW SQL LILLYPUT\src\MiniSQL.BufferManager\obj\Debug\net5.0\MiniSQL.BufferManager.csproj.AssemblyReference.cache
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\NITW SQL LILLYPUT\src\MiniSQL.BufferManager\obj\Debug\net5.0\MiniSQL.BufferManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\NITW SQL LILLYPUT\src\MiniSQL.BufferManager\obj\Debug\net5.0\MiniSQL.BufferManager.AssemblyInfoInputs.cache
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\NITW SQL LILLYPUT\src\MiniSQL.BufferManager\obj\Debug\net5.0\MiniSQL.BufferManager.AssemblyInfo.cs
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\NITW SQL LILLYPUT\src\MiniSQL.BufferManager\obj\Debug\net5.0\MiniSQL.BufferManager.csproj.CoreCompileInputs.cache
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\NITW SQL LILLYPUT\src\MiniSQL.BufferManager\obj\Debug\net5.0\MiniSQL..27B18889.Up2Date
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\NITW SQL LILLYPUT\src\MiniSQL.BufferManager\obj\Debug\net5.0\MiniSQL.BufferManager.dll
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\NITW SQL LILLYPUT\src\MiniSQL.BufferManager\obj\Debug\net5.0\refint\MiniSQL.BufferManager.dll
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\NITW SQL LILLYPUT\src\MiniSQL.BufferManager\obj\Debug\net5.0\MiniSQL.BufferManager.pdb
+C:\Users\HP\OneDrive\Pictures\Desktop\Desktop\semister 4\ca\NITW SQL LILLYPUT\src\MiniSQL.BufferManager\obj\Debug\net5.0\ref\MiniSQL.BufferManager.dll

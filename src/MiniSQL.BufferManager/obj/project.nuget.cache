@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "oe+IJE6FkCp5l7AvcesI94IDhgaVJAhSpperJ6wHphZbc3+pfzUG0yqSAffP0m1XGKIM8fWRB9QsFdGlgKLPnw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\HP\\OneDrive\\Pictures\\Desktop\\Desktop\\semister 4\\ca\\NITW SQL LILLYPUT\\src\\MiniSQL.BufferManager\\MiniSQL.BufferManager.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

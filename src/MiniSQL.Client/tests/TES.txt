@@ -1,0 +1,24 @@
+*,drop ,insert,delete, conditional printing, exit,flush,table creating,use database,drop db,show tables,
+create table student (
+    sno char(8),
+    sname char(16) unique,
+    sage int,
+    sgender char (1),
+    primary key ( sno )
+);
+ent;
+create index stunameidx on student ( sname );
+drop index stunameidx;
+show tables;
+select * from student;
+select * from student where sno = '88888888';
+select * from student where sage > 20 and sgender = 'F';
+select * from student where sno = '88888888' or sage > 20 and sgender = 'F';
+select * from student where sage > (20 + 2) / 3;
+insert into student values ('12345678','wy',22,'M');
+delete from student;
+delete from student where sno = '88888888';
+//ensure writing back all dirty pages
+exit
+// write all pages back to disk
+flush

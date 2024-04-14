@@ -1,0 +1,254 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MiniSQL.IndexManager</name>
+    </assembly>
+    <members>
+        <member name="M:MiniSQL.IndexManager.Controllers.BTreeController.LinearSearch(MiniSQL.IndexManager.Models.BTreeNode)">
+            <summary>
+            Search the leaf nodes linearly.
+            </summary>
+            <param name="root">the root node of the B+ tree</param>
+            <returns></returns>
+        </member>
+        <member name="M:MiniSQL.IndexManager.Controllers.BTreeController.FindCells(MiniSQL.IndexManager.Models.BTreeNode,MiniSQL.Library.Models.Expression,System.Collections.Generic.List{MiniSQL.Library.Models.AttributeDeclaration},MiniSQL.Library.Models.AtomValue,System.Boolean)">
+            <summary>
+            <para>
+            to find cells that satisfy:
+             - starting from `startNode`
+             - ends in `upperBound`
+                 - might be inclusive depending on `isIncludeUpperBound`
+             - satisfying `condition`
+            </para>
+            <para>`attributeDeclarations` := the names of the columns</para>
+            </summary>
+            <param name="startNode"></param>
+            <param name="condition"></param>
+            <param name="attributeDeclarations">the names of the columns</param>
+            <param name="upperBound"></param>
+            <param name="isIncludeUpperBound"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MiniSQL.IndexManager.Controllers.BTreeController.FindCells(MiniSQL.IndexManager.Models.BTreeNode,System.Int32,MiniSQL.Library.Models.Expression,System.Collections.Generic.List{MiniSQL.Library.Models.AttributeDeclaration},System.Boolean)">
+            <summary>
+            <para>
+            to find cells that satisfy:
+             - starting from `startIndexOfCell` in `startNode`
+                 - `startIndexOfCell` might be inclusive depending on `isIncludeStartCell`
+             - till to the end of the leaf nodes
+             - satisfying `condition`
+            </para>
+            <para>`attributeDeclarations` := the names of the columns</para>
+            </summary>
+            <param name="startNode"></param>
+            <param name="startIndexOfCell"></param>
+            <param name="condition"></param>
+            <param name="attributeDeclarations">the names of the columns</param>
+            <param name="isIncludeStartCell"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MiniSQL.IndexManager.Controllers.BTreeController.InsertCell(MiniSQL.IndexManager.Models.BTreeNode,MiniSQL.IndexManager.Models.DBRecord,MiniSQL.IndexManager.Models.DBRecord)">
+            <summary>
+            Insert a row/record/cell.
+            </summary>
+            <param name="root">the root of the B+ tree.</param>
+            <param name="key">primary key in table tree and indexed column in index tree.</param>
+            <param name="dBRecord">new row of values to insert.</param>
+            <returns>new root node of the B+ tree</returns>
+        </member>
+        <member name="M:MiniSQL.IndexManager.Controllers.BTreeController.SplitNode(MiniSQL.IndexManager.Models.BTreeNode,MiniSQL.IndexManager.Models.BTreeNode,MiniSQL.IndexManager.Models.DBRecord)">
+            <summary>
+            Split `nodeTobeSplit`, which has a `parantNode`.
+            </summary>
+            <param name="nodeTobeSplit">node to be split.</param>
+            <param name="parantNode">parent node of `nodeTobeSplit`.</param>
+            <param name="newKey">the value of new key. This could affect where to split.</param>
+        </member>
+        <member name="M:MiniSQL.IndexManager.Controllers.BTreeController.InsertNonFull(MiniSQL.IndexManager.Models.BTreeNode,MiniSQL.IndexManager.Models.DBRecord,MiniSQL.IndexManager.Models.DBRecord)">
+            <summary>
+            <para>Insert cell into a non-full node `node` if `node` is a leaf node.</para>
+            <para>If `node` is not the leaf node, the child node of `node` might need to split before recursively performing this function to the child node.</para>
+            <para>`node` should be ensured to be not full.</para>
+            </summary>
+            <param name="node">node being inserted</param>
+            <param name="newKey">new key value</param>
+            <param name="dBRecord">new row/record</param>
+            <returns>new root node</returns>
+        </member>
+        <member name="M:MiniSQL.IndexManager.Interfaces.IIndexManager.OccupyNewTableNode">
+            <summary>
+            Use when creating table
+            </summary>
+            <returns>The root node of the new B+ tree</returns>
+        </member>
+        <member name="M:MiniSQL.IndexManager.Interfaces.IIndexManager.RemoveTree(MiniSQL.IndexManager.Models.BTreeNode)">
+            <summary>
+            Use when dropping table
+            </summary>
+            <param name="root">root node of the B+ Tree</param>
+        </member>
+        <member name="M:MiniSQL.IndexManager.Interfaces.IIndexManager.InsertCell(MiniSQL.IndexManager.Models.BTreeNode,MiniSQL.IndexManager.Models.DBRecord,MiniSQL.IndexManager.Models.DBRecord)">
+            <summary>
+            Insert a row/record/cell
+            </summary>
+            <param name="root">the root of the B+ tree</param>
+            <param name="key">primary key in table tree and indexed column in index tree</param>
+            <param name="dBRecord">new row of values to insert</param>
+            <returns>new root node of the B+ tree</returns>
+        </member>
+        <member name="M:MiniSQL.IndexManager.Interfaces.IIndexManager.DeleteCells(MiniSQL.IndexManager.Models.BTreeNode,MiniSQL.Library.Models.Expression,System.String,System.Collections.Generic.List{MiniSQL.Library.Models.AttributeDeclaration})">
+            <summary>
+            Delete cell(s) that satisfy `conDition`
+            </summary>
+            <param name="root">the root of the B+ tree</param>
+            <param name="condition">condition to satisfy</param>
+            <param name="keyName">primary key in table tree; indexed value in index tree</param>
+            <param name="attributeDeclarations">the names of the columns</param>
+            <returns>new root node of the B+ tree</returns>
+        </member>
+        <member name="M:MiniSQL.IndexManager.Interfaces.IIndexManager.FindCells(MiniSQL.IndexManager.Models.BTreeNode,MiniSQL.Library.Models.Expression,System.String,System.Collections.Generic.List{MiniSQL.Library.Models.AttributeDeclaration})">
+            <summary>
+            Return matches that satisfy `condition`
+            </summary>
+            <param name="root">the root of the B+ tree</param>
+            <param name="condition">condition to satisfy</param>
+            <param name="keyName">primary key in table tree; indexed value in index tree</param>
+            <param name="attributeDeclarations">the names of the columns</param>
+            <returns>matches that satisfy `condition`</returns>
+        </member>
+        <member name="M:MiniSQL.IndexManager.Interfaces.IIndexManager.FindCell(MiniSQL.IndexManager.Models.DBRecord,MiniSQL.IndexManager.Models.BTreeNode)">
+            <summary>
+            Find a row/record/cell by the key value
+            </summary>
+            <param name="key">primary key in table tree; indexed value in index tree</param>
+            <param name="root">the root of the B+ tree</param>
+            <returns>the matched cell</returns>
+        </member>
+        <member name="M:MiniSQL.IndexManager.Interfaces.IIndexManager.LinearSearch(MiniSQL.IndexManager.Models.BTreeNode)">
+            <summary>
+            Enumerate all leaf nodes of the B+ tree
+            </summary>
+            <param name="root">the root of the B+ tree</param>
+            <returns>each leaf node</returns>
+        </member>
+        <member name="P:MiniSQL.IndexManager.Models.BTreeNode.FreeOffset">
+            <summary>
+            <para>The byte offset at which the free space starts. </para>
+            <para>Note that this must be updated every time the cell offset array grows.</para>
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:MiniSQL.IndexManager.Models.BTreeNode.CellsOffset">
+            <summary>
+            <para>The byte offset at which the cells start.</para>
+            <para>If the page contains no cells, this field contains the value PageSize. </para>
+            <para>This value must be updated every time a cell is added.</para>
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:MiniSQL.IndexManager.Models.BTreeNode.RightPage">
+            <summary>
+            <para>deprecated: internal node only</para>
+            <para>WORKAROUND: all types of node have the `RightPage` pointer</para>
+            <para>RightPage pointer is, essentially, the “rightmost pointer” in a B-Tree node</para>
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:MiniSQL.IndexManager.Models.BTreeNode.IsDisabled">
+            <summary>
+            If tree node is freed/disabled
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:MiniSQL.IndexManager.Models.BTreeNode.Count">
+            <summary>
+            Alias for the number of cells
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:MiniSQL.IndexManager.Models.BTreeNode.CellOffsetArray">
+            <summary>
+            <para>the offset array at the low address of the page</para>
+            <para>the array indicates the offset (address) of each cell at the high address space</para>
+            <para>the order of the array is carefully set in ascending order. It is based on the first value of `Key` of each cell.</para>
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:MiniSQL.IndexManager.Models.BTreeNode.RawPage">
+            <summary>
+            <para>The memory page behind this node.</para>
+            <para>Use it when freeing this node, but no necessarily.</para>
+            </summary>
+            <value>The memory page behind this node</value>
+        </member>
+        <member name="M:MiniSQL.IndexManager.Models.BTreeNode.DeleteBTreeCell(MiniSQL.IndexManager.Models.BTreeCell)">
+            <summary>
+            Delete a tree cell
+            </summary>
+            <param name="cell">cell to be removed</param>
+        </member>
+        <member name="M:MiniSQL.IndexManager.Models.BTreeNode.DeleteBTreeCell(System.UInt16)">
+            <summary>
+            NOTICE: remember to re-get the `CellOffsetArray` after deletion
+            </summary>
+            <param name="address">the address/offset of the cell in this node</param>
+        </member>
+        <member name="M:MiniSQL.IndexManager.Models.BTreeNode.GetBTreeCell(System.UInt32)">
+            <summary>
+            <para>get a cell given an offset (address)</para>
+            <para>NOTICE: you are only getting a COPY, any modification on the cell will NOT affect the node</para>
+            </summary>
+            <param name="address">the address/offset of the cell in this node</param>
+            <returns>a COPY of the matched cell</returns>
+        </member>
+        <member name="M:MiniSQL.IndexManager.Models.BTreeNode.InsertBTreeCell(MiniSQL.IndexManager.Models.BTreeCell)">
+            <summary>
+            Insert a cell. It will place the new cell in ascending order
+            </summary>
+            <param name="cell">new cell to insert</param>
+        </member>
+        <member name="M:MiniSQL.IndexManager.Models.BTreeNode.FindBTreeCell(MiniSQL.IndexManager.Models.BTreeCell,System.Boolean)">
+            <summary>
+            <para>NOTICE: if `isFuzzySearch`, this function will return the first cell that with key equal or larger than that of `cell`'s</para>
+            <para>if no cell matches, the output `cell` field will be `null` and `offset` will be set to 0</para>
+            </summary>
+            <param name="cell">cell to be found</param>
+            <param name="isFuzzySearch">if `isFuzzySearch`, this function will return the first cell that with key equal or larger than that of `cell`'s</param>
+            <returns>found cells; offset/address in the node, index in the `CellOffsetArray`</returns>
+        </member>
+        <member name="M:MiniSQL.IndexManager.Models.BTreeNode.FindBTreeCell(MiniSQL.IndexManager.Models.DBRecord,System.Boolean)">
+            <summary>
+            <para>NOTICE: if `isFuzzySearch`, this function will return the first cell that with key equal or larger than that of `cell`'s</para>
+            <para>if no cell matches, the output `cell` field will be `null` and `offset` will be set to 0</para>
+            </summary>
+            <param name="key">primary key in table tree; indexed value in index tree</param>
+            <param name="isFuzzySearch">if `isFuzzySearch`, this function will return the first cell that with key equal or larger than that of `cell`'s</param>
+            <returns>found cells; offset/address in the node, index in the `CellOffsetArray`</returns>
+        </member>
+        <member name="M:MiniSQL.IndexManager.Models.BTreeNode.FindBTreeCell(System.Collections.Generic.List{MiniSQL.Library.Models.AtomValue},System.Boolean)">
+            <summary>
+            <para>NOTICE: if `isFuzzySearch`, this function will return the first cell that with key equal or larger than that of `cell`'s</para>
+            <para>if no cell matches, the output `cell` field will be `null` and `offset` will be set to 0</para>
+            <para>WORKAROUND: only the first key is used. The remaining keys will be ignored</para>
+            </summary>
+            <param name="keys">primary keys in table tree; indexed values in index tree</param>
+            <param name="isFuzzySearch">if `isFuzzySearch`, this function will return the first cell that with key equal or larger than that of `cell`'s</param>
+            <returns>found cells; offset/address in the node, index in the `CellOffsetArray`</returns>
+        </member>
+        <member name="M:MiniSQL.IndexManager.Models.BTreeNode.FindBTreeCell(MiniSQL.Library.Models.AtomValue,System.Boolean)">
+            <summary>
+            <para>NOTICE: if `isFuzzySearch`, this function will return the first cell that with key equal or larger than that of `cell`'s</para>
+            <para>if no cell matches, the output `cell` field will be `null` and `offset` will be set to 0</para>
+            </summary>
+            <param name="key">primary key in table tree; indexed value in index tree</param>
+            <param name="isFuzzySearch">if `isFuzzySearch`, this function will return the first cell that with key equal or larger than that of `cell`'s</param>
+            <returns>found cells; offset/address in the node, index in the `CellOffsetArray`</returns>
+        </member>
+        <member name="P:MiniSQL.IndexManager.Models.BTreeNode.Item(System.Int32)">
+            <summary>
+            NOTICE: you are only getting a COPY, any modification on the cell will NOT affect the node
+            </summary>
+            <value></value>
+        </member>
+    </members>
+</doc>
