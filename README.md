@@ -2,6 +2,8 @@
  
 ![Application screenshot](./archi.png)
 
+ 
+![Application screenshot](./testing.png)
 <br/>
 <br/>
 # SQL Genius
