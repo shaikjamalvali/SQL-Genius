@@ -1,7 +1,5 @@
 ![Application screenshot](./B+tree.jpg)
-
-<br/>
-<br/>
+ 
 ![Application screenshot](./archi.png)
 
 <br/>
