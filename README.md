@@ -103,8 +103,6 @@ then you can run queries and executile files from sql here now
 possible SQL Quires:-
 =====================
 *,drop ,insert,delete, conditional printing, exit,flush,table creating,use database,drop db,show tables,
-
-<br/>
 <br/>
 create table student (
     sno char(8),
@@ -113,24 +111,31 @@ create table student (
     sgender char (1),
     primary key ( sno )
 ); 
-
-
-<br/>
 <br/> 
 create index stunameidx on student ( sname );
-
+<br/>
 drop index stunameidx;
-
+<br/>
 show tables;
+<br/>
 select * from student;
+<br/>
 select * from student where sno = '88888888';
+<br/>
 select * from student where sage > 20 and sgender = 'F';
+<br/>
 select * from student where sno = '88888888' or sage > 20 and sgender = 'F';
+<br/>
 select * from student where sage > (20 + 2) / 3;
+<br/>
 insert into student values ('12345678','wy',22,'M');
+<br/>
 delete from student;
+<br/>
 delete from student where sno = '88888888';
+<br/>
 //ensure writing back all dirty pages
 exit
+<br/>
 // write all pages back to disk
 flush
