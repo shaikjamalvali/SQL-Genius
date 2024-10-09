@@ -112,7 +112,9 @@ create table student (
 );
 ent;
 create index stunameidx on student ( sname );
+
 drop index stunameidx;
+
 show tables;
 select * from student;
 select * from student where sno = '88888888';
