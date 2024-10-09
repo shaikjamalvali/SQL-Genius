@@ -135,7 +135,9 @@ delete from student;
 delete from student where sno = '88888888';
 <br/>
 //ensure writing back all dirty pages
+<br/>
 exit
 <br/>
 // write all pages back to disk
+<br/>
 flush
