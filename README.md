@@ -103,14 +103,20 @@ then you can run queries and executile files from sql here now
 possible SQL Quires:-
 =====================
 *,drop ,insert,delete, conditional printing, exit,flush,table creating,use database,drop db,show tables,
+
+<br/>
+<br/>
 create table student (
     sno char(8),
     sname char(16) unique,
     sage int,
     sgender char (1),
     primary key ( sno )
-);
-ent;
+); 
+
+
+<br/>
+<br/> 
 create index stunameidx on student ( sname );
 
 drop index stunameidx;
